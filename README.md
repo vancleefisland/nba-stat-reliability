@@ -3,7 +3,7 @@
 
 For common NBA stats, how much of a player's observed number reflects real skill versus luck at a given sample size, and does accounting for that improve prediction?
 
-**Status:** pipeline complete and run on four seasons of real data. Tested on Python 3.9 on macOS.
+**Status:** pipeline complete and run on six seasons of real data. Tested on Python 3.9 on macOS.
 
 ## Key findings
 - **FT% stabilizes fast, 3P% does not.** About 25 attempts to reach 50% reliability for FT% vs. about 294 for 3P%. The average player takes about 235 threes in a full season, so a typical full-season 3P% is still less than half signal.
